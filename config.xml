@@ -17,9 +17,9 @@
         Jhon Fierro 
     </author>
     
-    <icon src="iconos/icono36.png" gap:platform="android" gap:density="ldpi"</>
-    <icon src="iconos/icono48.png" gap:platform="android" gap:density="mdpi"</>
-    <icon src="iconos/icono72.png" gap:platform="android" gap:density="hdpi"</>
-    <icon src="iconos/icono128.png" gap:platform="android" gap:density="xhdpi"</>
+    <icon src="iconos/icono36.png" gap:platform="android" gap:density="ldpi"/>
+    <icon src="iconos/icono48.png" gap:platform="android" gap:density="mdpi"/>
+    <icon src="iconos/icono72.png" gap:platform="android" gap:density="hdpi"/>
+    <icon src="iconos/icono128.png" gap:platform="android" gap:density="xhdpi"/>
 
 </widget>
