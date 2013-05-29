@@ -1,0 +1,2019 @@
+<!DOCTYPE HTML>
+<div class="texto-uno">
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>Doctor Dog</title>
+  <link href='http://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Tauri' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+div[data-role="page"] {
+    background-color: #7ecefd;
+	background-image: url(images/fondo.png);
+}
+#columna1 {
+	width: 25%;
+}
+
+h3 {
+	font-family: 'Tauri', sans-serif;
+}
+h7 {
+	font-family: 'Tauri', sans-serif;
+}
+h5 {
+	font-family: 'Tauri', sans-serif;
+}
+h1 {
+	font-family: 'Archivo Black', sans-serif;
+}
+#columna2 {
+	width: 75%;
+}
+
+#columna2-uno {
+	width: 75%;
+	background-color:#fff6e5;
+	padding-left:10px;
+	padding-right: 10px;
+	
+	}
+.cuadro-imagenes {
+	float: left;
+	height: auto;
+	width: 320px;
+	padding-left: 30px;
+	margin-top:50px;
+}
+.texto-uno {
+	float:right; 
+	width: 350px;
+	height: 350px;
+}
+
+#sabiasque div a {
+	font-family: 'Tauri', sans-serif;
+	display: block;
+	background-image: url(images/fondo_globo.png);
+	height: 137px;
+	width: 302px;
+	font-size: 25px;
+	color: #000;
+	text-align:center;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	padding-top: 75px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+#titulo {
+	text-align: center;
+	font-family: 'Archivo Black', sans-serif;
+}
+  </style>
+  <link rel="stylesheet" href="themes/primerosw.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+  </head>
+ 
+    
+<body>
+  <div data-role="page" id="inicio" data-theme="a">
+  <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+  </div>
+    <div data-role="content">
+      <div class="ui-grid-a">
+        <div class="ui-block-a" id="columna1">
+          <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+            <div data-role="collapsible" data-collapsed="false">
+              <h1>
+                Enfermedades
+                </h1>
+              <div data-role="collapsible-set">
+                <div data-role="collapsible" data-collapsed="true">
+                  <h5>
+                    Intestinales
+                    </h5>
+                  <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                    <li data-theme="a">
+                      <a href="#gastritis" data-transition="slide">
+                        Gastritis
+                        </a>
+                      </li>
+                    <li data-theme="a">
+                      <a href="#vomito" data-transition="slide">
+                        Vomito
+                        </a>
+                      </li>
+                    <li data-theme="a">
+                      <a href="#diarrea" data-transition="slide">
+                        Diarrea
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                <div data-role="collapsible">
+                  <h5>
+                    Oculares
+                    </h5>
+                    	 <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                    <li data-theme="a">
+                      <a href="#conjuntivitis" data-transition="slide">
+                        Conjuntivitis
+                        </a>
+                      </li>
+                    <li data-theme="a">
+                      <a href="#glaucoma" data-transition="slide">
+                        Glaucoma
+                        </a>
+                      </li>
+                    </ul>
+                    	
+                  </div>
+                <div data-role="collapsible">
+                  <h5>
+                    Generales
+                    </h5>
+                  	 <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                    <li data-theme="a">
+                      <a href="#parvovirosis" data-transition="slide">
+                        Parvovirosis                       
+                        </a>
+                      </li>
+                    <li data-theme="a">
+                      <a href="#moquillo" data-transition="slide">
+                        Moquillo
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            <div data-role="collapsible" >
+             	<h1>
+                ¿Sabias Que?
+                </h1>
+			       <ul data-role="listview" data-divider-theme="a" >
+                    <li data-theme="a">
+                      <a href="#inicio" data-transition="slide">
+                        <h7>Tips</h7>
+                        </a>
+                      </li>
+                  	</ul>
+             	</div>
+            <div data-role="collapsible">
+              <h1>
+                Favoritos
+              </h1>
+              	 <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                    <li data-theme="a">
+                      <a href="#vomito" data-transition="slide">
+                        <h7>Vomito</h7>
+                        </a>
+                      </li>
+                     <li data-theme="a">
+                      <a href="#conjuntivitis" data-transition="slide">
+                        <h7>Conjuntivitis</h7>
+                        </a>
+                      </li>
+                   </ul>
+              </div>
+          </div>
+        </div>
+       <div class="ui-block-b" id="columna2">
+        	<div class="ui-grid-a" id="sabiasque">
+                <div class="ui-block-a">
+           		  <a href="#sabiasque_uno">Tres perros sobrevivieron al naugragio del Titanic...</a>
+                </div>
+                <div class="ui-block-b">
+           		  <a href="#sabiasque_dos">El perro más viejo, murió a los 29 años...</a>
+                </div>
+                <div class="ui-block-a">
+           		  <a href="#sabiasque_tres">Los perros de razas pequeñas suelen vivir más tiempo...</a>
+                </div>
+                <div class="ui-block-b">
+           		  <a href="#sabiasque_cuatro">Los perros pueden oir sonidos desde una distancia de 225 mts...</a>
+                </div>
+                <div class="ui-block-a">
+           		  <a href="#sabiasque_cinco">Hay más de 800 razas de perros...</a>
+                </div>
+                <div class="ui-block-b">
+               		<a href="#sabiasque_seis">1 año de vida de un perro son 15 años nuestros...</a>
+                </div>
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<div data-role="page" id="gastritis" data-theme="a">
+  <div data-theme="a" data-role="header" data-position="fixed">
+  
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+  </div>
+	 <div data-role="content">
+          <div class="ui-grid-a">
+             <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div>
+    
+           <div class="ui-block-b" id="columna2">
+      
+                <div class="cuadro-imagenes"><img src="images/gastritis_uno.jpg" width="304" height="239"></div>
+           
+                <p><font color="#FFFFFF"><center><h3>Gastritis</h3></center></font></p>
+                <p>
+                  <div align="justify"><h7>La gastritis es la inflamación de la mucosa gástrica y puede ser aguda (repentina y de corta duración) o crónica (de desarrollo lento y persistente). En cualquiera de los casos, esta enfermedad no suele ser fatal para los perros cuando se sigue el tratamiento adecuado.</h7></div>
+                
+                </p>
+              <center><font color="#FFFFFF"><h3>Síntomas</h3></font></center> 
+     <h7>Los síntomas principales de gastritis en perros comprenden los vómitos y el dolor abdominal, pero también pueden aparecer otros signos de la enfermedad. Los síntomas comunes de esta enfermedad en caninos son:
+                   
+            <ul>
+                <li>Vómitos severos y persistentes en la gastritis crónica. Pueden tener bilis (color amarillo), sangre fresca (rojo a color oscuro) o sangre digerida (se presentan granos oscuros como borra de café).
+                </li>
+                <li>Pérdida de apetito.</li>
+                 <li>Pérdida de peso. </li>
+                <li>Diarrea.</li>
+                <li>Deshidratación.</li>
+                <li>Presencia de sangre en las heces.</li>
+                <li>Babeo.</li>
+            </ul>
+            
+               <p><font color="#FFFFFF"><center><h3>Tratamiento</h3></center></font></p>
+                    <h7>La gastritis aguda casi siempre está asociada con la ingesta de sustancias dañinas para el perro. Puede ocurrir porque el perro come alimentos en estado de descomposición, ingiere sustancias tóxicas (venenos, medicamentos para humanos, etc.), se da un atracón (común en las fiestas), come heces de otros animales o come sustancias no digeribles (plásticos, telas, juguetes, etc.). También ocurre por parásitos internos, infección bacteriana o viral, o por enfermedades de otros órganos como los riñones y el hígado.
+                    Es posible prevenir la gastritis canina mediante los siguientes consejos:
+                    <ul>
+    <li>Como primera instancia se re comienda llevar a tu mascota al veterinario, quién lo m.</li>
+    <li>Evitar que el perro robe comida del basurero.</li>
+    <li>No permitir que el perro salga solo y vague por el vecindario.</li>
+    <li>Evitar que el perro tenga acceso a sustancias tóxicas y medicamentos.</li>
+    <li>No dar de comer en exceso.</li>
+    <li>No darle de comer las sobras (especialmente en las fiestas) aparte de su comida regular.</li>
+    <li>No darle comidas que le causan alguna alergia.</li>
+    <li>Mantener al día las vacunas del cachorro y del perro adulto.</li>
+                    </ul>         
+                  
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+<div data-role="page" id="vomito" data-theme="a">
+  <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+      </div>
+    
+    
+
+	<div data-role="content">
+      <div class="ui-grid-a">
+             <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div> 
+<div class="ui-block-b" id="columna2">       
+<div class="cuadro-imagenes"><img src="images/vomito_uno.jpg" width="268" height="323"></div>
+       
+<font color="#FFFFFF"><center><h3>Vomito</h3></center></font>
+<h7>
+Si usted piensa que los perros vomitan mucho, tiene razón. Esto es porque los perros tienen un centro de vómito bien desarrollado en su cerebro, el cual les permite vomitar mucho más fácil que a la mayoría de los demás animales.
+
+En parte es un mecanismo de defensa natural en los perros. Ellos ven algo y se lo comen para saber si es comestible. Si no es así, su cuerpo lo expulsa de la misma manera que lo comió.
+
+Sin embargo, los vómitos puede ser un signo de una enfermedad grave e incluso mortal para nuestras mascotas. Aquí están algunos puntos que debe saber acerca de los vómitos de los perros.
+ <font color="#FFFFFF"><center><h3>¿Vómito o regurgitación?</h3></center></font>
+ <br>
+Hay dos maneras de que los perros vomiten. Cuando la comida se queda en el esófago debido a que está bloqueada y no va a bajar, se acumula hasta que se sobrecarga y el perro regurgita la comida. Aunque este proceso puede ser similar a los vómitos, en realidad se llama regurgitación. Esta comida siempre aparece sin ser digerida, ya que en realidad no ha llegado al estómago.
+
+Pero cuando la comida llega al estómago, esta tiene que ser expulsada forzosamente a través del vómito. Los perros que están a punto de vomitar generalmente se vuelven ansiosos y pueden buscar llamar la atención.
+     <br>
+     <font color="#FFFFFF"><center><h3>¿Cuando es un problema serio el vómito?</h3></center></font>
+     <br>
+Si un perro sano lanza de vez en cuando, probablemente no es un problema. Pero si usted observa alguno de los siguientes síntomas, lleve a su perro a un veterinario de inmediato:
+<ul>
+	<li> Vomita más de una vez por día, o continúa vomitando al día 		     siguiente.</li>
+    <li> Vómito con sangre de color rojo brillante o lo que parecen granos de café (esto es sangre parcialmente digerida).</li>
+    <li> Diarrea</li>
+    <li> Letargo</li>
+    <li> Diarrea</li>
+    <li>Vómitos a pesar de no comer durante varias horas.</li>
+    <li>Distensión abdominal</li>
+</ul>
+     
+ <font color="#FFFFFF"><center><h3>El tratamiento de los vómitos</h3></center></font>
+ 
+ Si su perro está sano y ha vomitado solo una vez, usted debería no darle comida ni agua a su perro durante unas 12 horas para que su estómago descanse.
+
+Después de eso, darle a su perro unos cuantos cubitos de hielo o una pequeña cantidad de agua para ver si lo puede tolerar.
+
+Si su mascota parece estar bien con el agua, ofrezcale un par de cucharadas de comida blanda, como la pechuga de pollo hervida y arroz. Si lo mantiene sin vomitarlo puede intentar ir introduciendo su dieta regular. En caso de que lo vomite, consulte a su veterinario.
+
+Su veterinario puede prescribir antibióticos, hacer un cambio en la dieta, antieméticos (medicamentos que ayudan a controlar los vómitos) u otros medicamentos. Seguir las recomendaciones de su veterinario es lo mejor para su mascota.
+       </div>
+   </div>
+</div>
+</div>
+
+
+
+  
+  
+  
+  
+<div data-role="page" id="diarrea" data-theme="a">
+	 <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+       </div>
+    	 <div data-role="content">
+      		<div class="ui-grid-a">
+             <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div> 
+<div class="ui-block-b" id="columna2">
+    <div class="cuadro-imagenes"><img src="images/diarrea_uno.jpg" width="268" height="323"></div>
+        
+  <font color="#FFFFFF"><center><h3>Diarrea</h3></center></font>
+<h7>A la mayoría de los perros les da diarrea por lo menos una vez en la vida. La diarrea es uno de los problemas más comunes que afectan a los perros, y la razón de una gran cantidad de visitas al veterinario. Por supuesto que los dueños se preocupan cuando su perro sufre de diarrea, ya sea que le dure poco tiempo o por un periodo mayor. Aunque en la mayoría de los casos la diarrea canina no es seria y se cura sin intervención del veterinario, el problema no es agradable para el perro ni para sus dueños, así que es importante saber qué hacer cuando tu amigo de cuatro patas sufre de diarrea.
+
+	<ul>
+		<li>Intenta determinar la causa de la diarrea de tu perro. Una de las causas más comunes es comer basura o comida en mal estado. También puede ser causada por alguna afección médica o por ingerir alguna sustancia tóxica.</li>
+        <li>Si sospechas que tu perro ingirió alguna sustancia tóxica llévalo inmediatamente al veterinario, así recibirá tratamiento lo más pronto posible. También lo debes llevar al veterinario si presenta otros síntomas como fiebre, letargo, pérdida de peso o dolor abdominal.</li>
+        <li>Si tu perro no parece estar sufriendo de ningún problema médico y no ha ingerido una sustancia tóxica, puedes tratar su diarrea en casa. Para evitar la deshidratación asegúrate de que beba agua en forma regular.</li>
+        
+      </ul>
+  			<font color="#FFFFFF"><center><h3>Alimentos que ayudan</h3></center></font>  
+       <ul>
+        <li>Agrégale al agua prebióticos en polvo o sale a tu perro alimento que incluya prebióticos.</li>
+        <li>Cambia el agua varias veces al día (tira la vieja, lava el recipiente y pon agua fresca).</li>
+        <li>Mantén al perro en ayunas por 12 horas o hasta que esté “vacío”. Si las heces son voluminosas y continuas a pesar de que el perro debería de estar “vacío”, consulta con el veterinario, podría ser una infección bacteriana. El perro debe de seguir consumiendo agua.</li>
+        <li>Dale puré enlatado de calabaza. No es el relleno del pastel de calabaza que tiene azúcar y especias. A la mayoría de los perros les encanta el sabor de la calabaza, es una fibra que regula el intestino y le va a dar color a las heces.</li>
+        <li>Aliméntalo con pollo hervido (desmenúzalo después de cocinarlo) y arroz blanco hervido. Ambos son livianos y harán que tu perro se estriña. La humedad en los alimentos ayudará a mantener a tu perro hidratado.</li>
+        <li>Conforme pasen los días poco a poco regresa al perro a su dieta habitual. Si la diarrea regresa después de que el perro regresó a su dieta habitual, consulta inmediatamente con el veterinario.</li>
+        <li>Si tu perro continúa padeciendo de diarrea y/o comienza a mostrar otros síntomas, llévalo al veterinario ya que puede estar padeciendo de algo más que requiera de un tratamiento específico.</li>
+      </ul>
+		</div>
+    </div>
+</div>
+</div>
+
+
+<div data-role="page" id="conjuntivitis" data-theme="a">
+ 	<div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+      </div>
+     
+     <div data-role="content">
+      		<div class="ui-grid-a">
+             <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div>
+          
+            <div class="ui-block-b" id="columna2">       
+<div class="cuadro-imagenes"><img src="images/conjuntivitis_uno.jpg" width="268" height="323"></div>
+       
+<font color="#FFFFFF"><center><h3>conjuntivitis</h3></center></font>
+<h7>
+Una conjuntivitis se define como la inflamación de la conjuntiva.  Puede ser primaria, o por el contrario, secundaria a otra enfermedad ocular, periocular o enfermedad sistémica.
+                <br>
+                La sintomatología de las conjuntivitis consiste en la presencia exudados (seroso, mucoso o purulento), quemosis,  en ocasiones la presencia de folículos y, por último la formación de pliegues sueltos en los fondos de saco.
+ Las conjuntivitis caninas rara vez son un problema primario siendo casi siempre un problema secundario a otra enfermedad ocular, periocular o sistémica.
+ <font color="#FFFFFF"><center><h3>Tratamiento de las conjuntivitis</h3></center></font>
+ <br>
+ El tratamiento de las conjuntivitis depende de la etiología. Deben corregirse las anomalías palpebrales si existieran, tratar la enfermedad sistémica y poner un tratamiento tópico que corrija la inflamación conjuntival.  En general, siempre que se sospeche de una etiología bacteriana primaria o secundaria, deben emplearse antibióticos tópicos de amplio espectro, o mejor un tratamiento tópico poliantibiótico que contenga neomicina, bacitracina y polimixina B.  La frecuencia de administración dependerá de la gravedad del proceso. En caso necesario debe realizarse un antibiograma. En el caso de las conjuntivitis por clamidias debe tratarse con cloramfenicol o tetracilina de forma tópica un mínimo de 20 días.
+ 
+     Ante una conjuntivitis folicular debe emplearse dexametasona al 0.1% tópica 3-4 veces por día hasta la remisión de la sintomatología.
+     <br>
+     <br>
+     En la conjuntivitis plasmocítica el tratamiento se basa, igualmente, en la administración crónica de corticoesteroides tópicos 4-6 veces por día hasta controlar la inflamación para luego buscar la dosis mínima de mantenimiento. Es muy beneficioso la administración conjunta de ciclosporina tópica (0,5-2%) que consigue, junto a los corticoesteroides tópicos, una remisión más rápida de la sintomatología.
+
+</div>
+ 
+     </div>
+   </div>
+
+
+</div>
+  
+ 
+
+
+
+<div data-role="page" id="glaucoma" data-theme="a">
+  	 <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+      </div>
+  <div data-role="content">
+  	<div class="ui-grid-a">
+             <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div>
+<div class="ui-block-b" id="columna2">
+  		<div class="cuadro-imagenes"><img src="images/glaucoma_uno.jpg" width="268" height="323"></div>
+      <center><h3><font color="#FFFFFF">Glaucoma</font></h3></center>
+<h7>Enfermedad del nervio óptico en perros. El glaucoma es una condición en la cual se ejerce presión sobre el ojo, causando el drenaje insuficiente de líquidos en el ojo.
+<br>El glaucoma es una condición en la cual se ejerce presión sobre el ojo, causando el drenaje insuficiente de líquidos en el ojo. Si la condición se vuelve crónica o persiste sin tratamiento, el causará un daño permanente al nervio óptico, produciendo ceguera.
+<br>
+<br>El glaucoma es común en ciertas razas de perros que tienen una predisposición genética, tales como Samoyedos, Cocker Spaniel, Poodles, Chow chow, y Siberianos. Por desgracia, el 40 por ciento de los perros afectados por glaucoma quedarán ciegos del ojo afectado durante el primer año, independientemente del tratamiento médico o quirúrgico.
+
+<center><h3><font color="#FFFFFF">Síntomas</font></h3></center>
+<h7>Hay dos tipos principales de glaucoma: primario y secundario. Los síntomas de la enfermedad primaria súbita, debido a la incapacidad del ojo para drenar a través de los ángulos de la filtración del ojo, son los siguientes:
+<ul>
+	<li>Alta presión dentro del ojo.</li>
+    <li>Parpadeo de los ojos.</li>
+    <li>El globo ocular puede retroceder de hacia dentro la cabeza.</li>
+    <li>Enrojecimiento de los vasos sanguíneos en la parte blanca de los ojos.</li>
+    <li>Aspecto turbio en la parte frontal del ojo.</li>
+    <li>Dilatación de las pupilas, o éstas no responden a la luz</li>
+    <li>Pérdida de la visión.</li>
+</ul>
+<center><h3><font color="#FFFFFF">Los síntomas de glaucoma secundario</font></h3></center>
+<ul>
+	<li>Alta presión dentro del ojo.</li>
+    <li> Enrojecimiento de los vasos sanguíneos en la parte blanca de los ojos.</li>
+    <li>Aspecto turbio en la parte frontal del ojo.</li>
+    <li>Restos inflamatorios visibles en la parte frontal del ojo.</li>
+    <li>Posible adherencia del iris a la córnea o el cristalino.</li>
+    <li>Posible adherencia circular del borde del iris a la lente.</li>
+ </ul>
+<center><h3><font color="#FFFFFF">Tratamiento</font></h3></center>
+<h7>Existen diferentes tratamientos en función de la naturaleza exacta del glaucoma. El líquido se puede drenar y las células productoras de fluido pueden ser alteradas para detener la acumulación de líquido dentro del ojo. Este proceso, llamado ciclocrioterapia, utiliza temperaturas frías para matar las células que producen el líquido intraocular. Si se detecta a tiempo, este procedimiento puede disminuir o detener la progresión de la enfermedad. Sin embargo, en los casos a largo plazo la mayoría de los ojos tiene que ser removido. La órbita del ojo vacío puede ser cerrada de forma permanente, o la cavidad del ojo se puede llenar con una esfera, para mantener el espacio ocular lleno.
+
+La mayoría de los perros se ajustará con el tiempo a la pérdida de su ojo, especialmente debido a que pueden haber ido perdiendo su visión durante un período de tiempo. Hable con su veterinario acerca de las formas en que puede ayudar a tu perro a la transición, y cómo puede ayudar a hacer su hogar y la vida al aire libre más fácil sin la vista. En estos casos, usted tendrá que asistir a su perro cuando se está al aire libre, ya que será más vulnerable a otros animales.</h7>
+</div>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="parvovirosis" data-theme="a">
+	 <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+    </div>
+    
+       
+  <div data-role="content">
+  		 <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div>
+    	<div class="ui-block-b" id="columna2">
+        	<div class="cuadro-imagenes"><img src="images/parvovirosis_uno.jpg" width="268" height="323"></div>
+    <center><h3><font color="#FFFFFF">Parvovirosis</font></h3></center>	
+    <h7>La Parvovirosis, es una grave enfermedad, producida por un virus resistente, que ataca con mayor frecuencia a cachorros, aunque algunos adultos y viejos, también pueden contraerla. es el resultado de la acción de un virus muy resistente, que ataca las vellosidades intestinales, ocasionando serios desórdenes en el aparato digestivo, y es reconocida como una gastroenteritis hemorrágica. <br>
+    <br>El parvovirus es sumamente resistente, pudiendo permanecer activo en suelos contaminados por material fecal infectado, por mas de seis meses, no pudiendo ser eliminado por los desinfectantes y detergentes que se consiguen en el mercado. Sin embargo, puede ser eliminado con el cloro, que es un desinfectante muy eficaz.
+     <center><h3><font color="#FFFFFF">Síntomas</font></h3></center>	
+    Los síntomas que presenta un cachorro con parvovirosis, son, en la forma intestinal, fiebre, decaimiento, falta de apetito, vómitos espumosos y diarreas sanguinolentas. En la forma cardíaca, además de los síntomas anteriores, se suman disnea, gemidos y arqueos del cuerpo, con muerte súbita. Cuando el cachorro sufre sólo la forma intestinal, tiene mejores perspectivas de recuperación, y ésta suele ser mas rápida y total. Los que padecen la forma cardíaca, tienen menos posibilidades de recuperación, y si se recuperan , pueden quedar con secuelas como la miocarditis, insuficiencia cardíaca, intolerancia al ejercicio y dificultad respiratoria.
+    <center><h3><font color="#FFFFFF">Tratamiento</font></h3></center>	Un tratamiento adecuado y a tiempo, puede salvar la vida del animal. Un animal afectado por parvovirosos, debe ser hospitalizado de inmediato. Sólo así podrá recibir el tratamiento adecuado, evitándose la deshidratación y con la aplicación de los antibióticos adecuados al tratamiento. <br>
+
+Lo fundamental, es prevenir la enfermedad, lo cual se logra cumpliendo en el cachorro su calendario de vacunaciones, desparasitación , adecuadas condiciones higiénicas y una buena nutrición, lo cual proporciona al organismo resistencia contra agresores tales como virus y parásitos, y en los perros adultos, realizar las correspondientes revacunaciones y desparasitaciones periódicas. Actualmente, hay vacunas para la parvovirosis, de gran efectividad, que pueden ser utilizadas pasadas las seis semanas de vida del cachorro. Luego de la primera dosis debe ser revacunado cada treinta días por tres meses, y posteriormente hacerlo anualmente, durante toda la vida del animal.
+    
+        </div>
+  
+  </div>
+</div>
+
+
+
+<div data-role="page" id="moquillo" data-theme="a">
+   <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+  </div>
+  
+  <div data-role="content">
+    <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div>
+    <div class="ui-block-b" id="columna2">
+  	<div class="cuadro-imagenes"><img src="images/moquillo_uno.jpg" width="268" height="323"></div>
+    <center><h3><font color="#FFFFFF">Moquillo</font></h3></center>
+    <h7>El moquillo, también conocido como distemper canino, es una de las enfermedades contagiosas más comunes y letales para los perros. El moquillo afecta al aparato digestivo y al aparato respiratorio de los perros. En casos avanzados, también puede afectar al sistema nervioso. <br>
+
+<br>Esta enfermedad es causada por un virus de la familia paramixoviridae, similar al del sarampión humano. Este virus también afecta a los otros cánidos (perro salvaje australiano, coyote, chacal, zorro, lobo), los mustélidos (comadreja, zorrillo, hurón, tejón, armiño, nutria, marta) y los prociónidos (kinkajoú, coatí, panda rojo, mapache, bassaricus).
+
+<br>Recientemente también se ha encontrado que algunos grandes felinos (leopardos y leones) pueden ser afectados por el virus del moquillo canino.
+<center><h3><font color="#FFFFFF">Síntomas</font></h3></center>
+El primer síntoma del moquillo es una secreción acuosa o con pus en los ojos. En etapas posteriores, se evidencia fiebre, secreción nasal, tos, letargo, falta de apetito, vómitos y diarrea. En algunos casos, se produce un engrosamiento de la planta de las almohadillas de las patas.
+En estados avanzados de la enfermedad puede verse comprometido el sistema nervioso del perro. En estos casos, pueden producirse convulsiones, espasmos o parálisis (parcial o completa).<br>
+
+<br>La mayoría de los perros que contraen moquillo mueren. Aquéllos que sobreviven a la enfermedad suelen presentar trastornos de comportamiento causados por el daño ocasionado al sistema nervioso.
+Puede ser difícil detectar el moquillo en sus primeras etapas, ya que los síntomas no siempre son muy evidentes. Podría ser que el perro parezca un poco cansado, y uno piense que es porque realizó alguna actividad física o porque hace mucho calor. En caso de duda, debes llevar a tu perro al veterinario inmediatamente.<br>
+<br><center><h3><font color="#FFFFFF">Tratamiento</font></h3></center>
+La única forma comprobada de prevenir el moquillo consiste en vacunar al cachorro contra la enfermedad.Esta vacuna, sin embargo, no es 100% efectiva. Cachorros vacunados pueden enfermar ocasionalmente. Esto puede ocurrir cuando la inmunidad que ofrece la leche materna evita que la vacuna haga efecto y deja a los cachorros sin protección.<br>
+
+<br>Por eso, es muy importante que sea el veterinario quien decida cuándo se debe aplicar la vacuna y qué tipo de vacuna se debe utilizar. Mientras tu perro no esté vacunado, debes tener mucho cuidado de que no se exponga a ambientes nocivos. Esto puede resultar difícil, puesto que el virus del moquillo se transmite por el aire.<br>
+
+<br>Por otro lado, no existe un tratamiento que permita eliminar al virus cuando la enfermedad se ha presentado. El único tratamiento que se puede dar actualmente a perros infectados de moquillo consiste en mitigar los síntomas, evitar la deshidratación y prevenir infecciones secundarias. Llegado el caso, el veterinario puede recomendar la eutanasia para evitarle mayor sufrimiento al perro.
+  </div> 	
+</div>
+</div>
+
+
+
+
+
+<div data-role="page" id="sabiasque_uno" data-theme="a">
+  <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+  </div>
+    <div data-role="content">
+    	<div data-role="content">
+    <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div>
+    	<div class="ui-block-b" id="columna2-uno">
+        	<center><h3><font color="#555555">¿Sabias Que?<br>Tres perros sobrevivieron al naugragio del Titanic</font></h3></center>
+            <h7>De todos los documentos de la empresa White Star -operadora de la nave-, y testimonios de los sobrevivientes, se sabe que a bordo del Titanic viajaban no más de 10 o 12 perros, todos ellos de pasajeros de primera clase. <br>Se puede afirmar que solo fueron 3 los perros que sobrevivieron al naufragio:
+<br>
+	<ul>
+
+<li>"Sun Yat Sen", un Pekinés, propiedad de Henry Harper, un acaudalado empresario británico, quien junto con su esposa Myra lograron ser rescatados.</li> <br>
+
+<li> "Lady", de raza Pomerania, que viajaba con su dueña Margaret Hays. Ambas fueron rescatadas del bote salvavidas número 7.</li><br>
+<li>Un Pomerania, del cual se desconoce su nombre, propiedad de Elizabeth Barrett Rothschild, quien viajaba junto a su esposo Martin Rothschild. Este último perdió la vida en el naufragio.</li>
+	</ul>
+      <br>
+        </div>
+  </div>
+ </div>
+ </div>
+
+
+<div data-role="page" id="sabiasque_dos" data-theme="a">
+  <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+  </div>
+    <div data-role="content">
+    	<div data-role="content">
+    <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div>
+    	<div class="ui-block-b" id="columna2-uno">
+        	<center><h3><font color="#555555">¿Sabias Que?<br>El perro más viejo, murió a los 29 años</font></h3></center>
+            <h7>Su nombre era Bluey. Era un Pastor Australiano que nació el 7 de Junio de 1910 y falleció el 14 de Noviembre de 1939, con 29 años, 5 meses y 7 días. Esto le convirtió en el perro más viejo del Mundo según los registros. Su Récord de Longevidad aún no ha podido ser vencido.
+Este animal pasó toda su vida en la granja de la familia Hall. Una granja de Australia situada en Rochester, provincia de Victoria.<br>
+<br>El caso de Bluey es considerado un caso excepcional, ya que la esperanza de vida de esta raza varía de los 13 a los 15 años de vida.
+Bluey batió todos los cálculos. Según los investigadores, pudo haberse debido a su dieta o a motivos, estrictamente, genéticos. También puede que hayan influido los buenos cuidados de sus dueños así como una buena atención médica.<br><br>
+            
+   </div>
+  </div>
+  </div>
+ </div>
+
+
+<div data-role="page" id="sabiasque_tres" data-theme="a">
+  <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+  </div>
+    <div data-role="content">
+    	<div data-role="content">
+    <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div>
+    	<div class="ui-block-b" id="columna2-uno">
+        	<center><h3><font color="#555555">¿Sabias Que?<br>Los perros de razas pequeñas suelen vivir más tiempo...</font></h3></center>
+            <h7>Muchos expertos coinciden en que las razas de perros más pequeñas suelen vivir más que las razas más grandes. Podríamos decir que la regla general es, cuanto más grande es el perro, más corta es su vida, aunque haya excepciones, como en cualquier regla. Las razas de perros pequeños tienden a vivir más tiempo, de doce a quince años. Hay algunas razas que pueden sobrepasar los veinte años, pero la mayoría no pasan de dieciséis. <br><br>
+
+Pero como hemos dicho antes, toda norma tiene sus excepciones y estamos considerando que se den siempre unas buenas condiciones de salud y un buen cuidado del perro. La genética juega un papel determinante en la longevidad, pero esa es una cuestión que no podemos controlar. Hay algunas cosas que podemos hacer para que nuestro cachorro llegue a la edad adulta sin problemas, muchas de ellas pueden combatir incluso, los factores genéticos.<br><br>
+            
+   </div>
+  </div>
+  </div>
+  </div>
+
+<div data-role="page" id="sabiasque_cuatro" data-theme="a">
+  <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+  </div>
+    <div data-role="content">
+    	<div data-role="content">
+    <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div>
+    	<div class="ui-block-b" id="columna2-uno">
+        	<center><h3><font color="#555555">¿Sabias Que?<br>Los perros pueden oir sonidos desde una distancia de 225 mts...</font></h3></center>
+            <h7>El campo de audibilidad de los perros es aproximadamente de 40 Hz a 60.000 Hz.28 Los perros detectan sonidos tan graves como 16-20 Hz —en comparación con 20-70 Hz en los humanos— y también por encima de 45 kHz 29 —en comparación con 13-20 kHz en los humanos—, y además tienen un grado de movilidad de las orejas que los permite determinar rápidamente el origen exacto de un sonido. <br><br> Diesciocho o más músculos pueden inclinar, rotar, levantar o bajar las orejas de un perro. Además, un perro puede detectar el origen de un sonido mucho más rápido que un humano y oír sonidos a una distancia hasta cuatro veces mayor que los humanos. Los perros con una forma de la oreja más natural, como las orejas de cánidos salvajes como el zorro, suelen oír mejor que los perros con las orejas más flexibles típicas de muchas razas domésticas.<br><br>
+            
+   </div>
+  </div>
+  </div>
+  </div>
+
+<div data-role="page" id="sabiasque_cinco" data-theme="a">
+  <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+  </div>
+    <div data-role="content">
+    	<div data-role="content">
+    <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div>
+    	<div class="ui-block-b" id="columna2-uno">
+        	<center><h3><font color="#555555">¿Sabias Que?<br>Hay más de 800 razas de perros...</font></h3></center>
+            <h7>Es difícil afirmar con seguridad cuantas hay exactamente en todo el mundo, muchas razas reconocidas por algunas federaciones no lo estan por otras, con esto no dejan de existir pero hace que sea mas tedioso el conteo de las razas en total. 
+Solamente en la FCI (Federación Cinológica Internacional) hay mas de 300 razas, aún así esto es solo una parte del total ya que entre todas las federaciones el número sobrepasa las 800 razas en todo el mundo.
+<br><br> 
+También es de tenerse en cuenta que hay razas que existieron y de las que se tienen registro y descripción de los perros pero que actualmente estan extintas.
+<br><br>
+            
+   </div>
+  </div>
+  </div>
+  </div>
+
+
+<div data-role="page" id="sabiasque_seis" data-theme="a">
+  <div data-theme="a" data-role="header" data-position="fixed">
+  		<div class="ui-grid-b">
+            <div class="ui-block-a">
+       	    	<img src="images/icono.png" width="48" height="48">
+            </div>
+            <div class="ui-block-b" id="titulo">
+    			<h3>Doctor Dog</h3>
+            </div>
+            <div class="ui-block-c">
+            </div>
+    	</div>
+  </div>
+    <div data-role="content">
+    	<div data-role="content">
+    <div class="ui-block-a" id="columna1">
+              <div data-role="collapsible-set" data-theme="b" data-content-theme="a">
+                <div data-role="collapsible" data-collapsed="false">
+                  <h1>
+                    Enfermedades
+                    </h1>
+                  <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="true">
+                      <h5>
+                        Intestinales
+                        </h5>
+                      <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#gastritis" data-transition="slide">
+                            Gastritis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            Vomito
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#diarrea" data-transition="slide">
+                            Diarrea
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Oculares
+                        </h5>
+                             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            Conjuntivitis
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#glaucoma" data-transition="slide">
+                            Glaucoma
+                            </a>
+                          </li>
+                        </ul>
+                            
+                      </div>
+                    <div data-role="collapsible">
+                      <h5>
+                        Generales
+                        </h5>
+                         <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#parvovirosis" data-transition="slide">
+                            Parvovirosis                       
+                            </a>
+                          </li>
+                        <li data-theme="a">
+                          <a href="#moquillo" data-transition="slide">
+                            Moquillo
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div data-role="collapsible">
+                    <h1>
+                    ¿Sabias Que?
+                    </h1>
+                       <ul data-role="listview" data-divider-theme="a" >
+                        <li data-theme="a">
+                          <a href="#inicio" data-transition="slide">
+                            <h7>Tips</h7>
+                            </a>
+                          </li>
+                        </ul>
+                    </div>
+                <div data-role="collapsible">
+                  <h1>
+                    Favoritos
+                  </h1>
+                     <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                        <li data-theme="a">
+                          <a href="#vomito" data-transition="slide">
+                            <h7>Vomito</h7>
+                            </a>
+                          </li>
+                         <li data-theme="a">
+                          <a href="#conjuntivitis" data-transition="slide">
+                            <h7>Conjuntivitis</h7>
+                            </a>
+                          </li>
+                       </ul>
+                  </div>
+              </div>
+            </div>
+    	<div class="ui-block-b" id="columna2-uno">
+        	<center><h3><font color="#555555">¿Sabias Que?<br>1 año de vida de un perro son 15 años nuestros...</font></h3></center>
+            <h7>Perro edad calculadora es una herramienta en línea calendario programada para calcular lo que es el equivalentes humanos años o la edad de su perro ahora?; Según el número de años habituales pasó tras el nacimiento de su perro. Es importante calcular la edad del perro para mantener saludable a la vida del perro el perro. El perro y la edad humana es diferente es la edad del perro es más rápida que hacer humano<br><br> Este perro a humanos años edad calculadora emplea la función promedio específica para convertirlo en edad humana. Por ejemplo, 1 año de edad perro equivale a 15 años de edad humana; 2 años equivale a 24 años; a partir de entonces cada año de un perro es igual a 4 años humanos. Cálculo de edad del perro es poco confusas. Así que cuando se trata de cálculo en línea, esta calculadora de edad perro le permite saber exactamente qué edad tu edad perro es ahora en términos de años humanos equivalentes.
+<br><br>
+            
+   </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+  </body>
+  </html>
+</div>
+
+
+
+
